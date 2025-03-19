@@ -1,0 +1,1 @@
+{"uuid":"13e3779b-52fa-4913-9f06-b53bddd3fee8","name":"Selenium.Selenium09.tearDown","children":["ecbb9f33-a081-4ab3-a5a0-873ce8d70cd4"],"description":"","befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1742383736012,"stop":1742383736089}],"start":1742383736012,"stop":1742383736089}

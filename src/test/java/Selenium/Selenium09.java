@@ -38,7 +38,10 @@ public class Selenium09 {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        Assert.assertTrue(driver.getCurrentUrl().contains("dashboard"), "Login failed!");
+
+        WebElement error_msg = driver.findElement(By.className("notification-box-description"));
+        String error_msg_text = error_msg.getText();
+        Assert.assertEquals(error_msg_text,"Your email, password, IP address or location did not match");
     }
 
     @AfterMethod
