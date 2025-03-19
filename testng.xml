@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/appinventiv/IdeaProjects/SeleniumAutomation">
+        <classes>
+            <class name="Selenium.Selenium02">
+                <methods>
+                    <include name="testMethod"/>
+                </methods>
+            </class>
+            <class name="Selenium.Selenium03">
+                <methods>
+                    <include name="testMethod"/>
+                </methods>
+            </class>
+            <class name="Selenium.Selenium08">
+                <methods>
+                    <include name="testAppVwoLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

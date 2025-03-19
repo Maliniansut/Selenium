@@ -1,5 +1,5 @@
 {
-  "uuid": "2a2c5b04-692e-48c0-9cae-dd5ba02f01fc",
+  "uuid": "0fcc7856-a7df-4970-8b9b-3fff6787493b",
   "historyId": "5fe2f85190ea2dd06f42b59db08268ec",
   "fullName": "Selenium.Selenium03.testMethod",
   "labels": [
@@ -17,11 +17,11 @@
     },
     {
       "name": "parentSuite",
-      "value": "Default Suite"
+      "value": "All Test Suite"
     },
     {
       "name": "suite",
-      "value": "SeleniumAutomation"
+      "value": "/home/appinventiv/IdeaProjects/SeleniumAutomation"
     },
     {
       "name": "subSuite",
@@ -33,7 +33,7 @@
     },
     {
       "name": "thread",
-      "value": "15263@appinventiv-Latitude-3420.main(1)"
+      "value": "31002@appinventiv-Latitude-3420.main(1)"
     },
     {
       "name": "framework",
@@ -56,6 +56,6 @@
   "steps": [],
   "attachments": [],
   "parameters": [],
-  "start": 1742290661665,
-  "stop": 1742290674566
+  "start": 1742300166148,
+  "stop": 1742300178840
 }

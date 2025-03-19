@@ -1,0 +1,1 @@
+{"uuid":"85b9d710-1850-4c7e-b450-9a947e11034f","name":"Selenium.Selenium09.setup","children":["3d31b6bc-8534-4d58-92d3-7d9aaa93f675"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1742367427648,"stop":1742367428417}],"afters":[],"start":1742367427648,"stop":1742367428417}
