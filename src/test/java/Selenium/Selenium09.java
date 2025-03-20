@@ -33,6 +33,8 @@ public class Selenium09 {
         emailField.sendKeys("maliniansut@gmail.com");
         passwordField.sendKeys("123@Malini");
         signupButton.click();
+
+        //Added try catch because WebDriver reads elements very fast so it may skip some things so that is why added thread.sleep(5000),so that it processes these things.
         try{
             Thread.sleep(5000);
         } catch (InterruptedException e) {
