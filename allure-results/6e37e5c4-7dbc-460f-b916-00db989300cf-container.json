@@ -1,0 +1,1 @@
+{"uuid":"6e37e5c4-7dbc-460f-b916-00db989300cf","name":"Selenium.Selenium10.tearDown","children":["2bd36032-d026-4ad1-915d-f56fc8e8498e"],"description":"","befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1742472747243,"stop":1742472747321}],"start":1742472747242,"stop":1742472747321}
