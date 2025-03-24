@@ -9,6 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.nio.file.WatchEvent;
+import java.util.List;
 
 public class SeleniumKatalon1 {
     @Test
@@ -16,6 +17,7 @@ public class SeleniumKatalon1 {
     public void katalonUrl() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.get("https://katalon-demo-cura.herokuapp.com/");
+        driver.manage().window().maximize();
 
         //<a
         // id="btn-make-appointment"
@@ -43,9 +45,23 @@ public class SeleniumKatalon1 {
         // placeholder="Username"
         // value=""
         // autocomplete="off">
+
         WebElement usernameElement= driver.findElement(By.id("txt-username"));
         usernameElement.sendKeys("John Doe");
-        WebElement passwordElement = driver.findElement(By.xpath("//input[@placeholder='Password/']"));
+
+        //if not by id then using xpath and more than one element then used list here from java.util package
+        /*List<WebElement> username_element = driver.findElements(By.xpath("//input[@placeholder='Password']"));
+        username_element.get(0).sendKeys("John Doe");*/ //1 because there are two elements present and we want to use the second element not zero element.
+
+        WebElement passwordElement = driver.findElement(By.xpath("//input[@id = 'txt-password']"));
+        passwordElement.sendKeys("ThisIsNotAPassword");
+
+        driver.findElement(By.id("btn-login")).click();
+
+        Thread.sleep(3000);
+        driver.quit();
+
+
 
 
 
