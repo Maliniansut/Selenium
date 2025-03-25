@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="/home/appinventiv/IdeaProjects/SeleniumAutomation">
+    <test verbose="2" preserve-order="true"
+          name="/home/appinventiv/IdeaProjects/SeleniumAutomation/src/test/java/TestNg/SeleniumTestNg2.java">
         <classes>
-            <class name="Selenium.Selenium02">
+            <class name="TestNg.SeleniumTestNg2">
                 <methods>
-                    <include name="testMethod"/>
-                </methods>
-            </class>
-            <class name="Selenium.Selenium03">
-                <methods>
-                    <include name="testMethod"/>
-                </methods>
-            </class>
-            <class name="Selenium.Selenium08">
-                <methods>
-                    <include name="testAppVwoLogin"/>
+                    <include name="ebayUrl_positive"/>
                 </methods>
             </class>
         </classes>
