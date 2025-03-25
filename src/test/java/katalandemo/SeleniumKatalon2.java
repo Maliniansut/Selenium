@@ -20,7 +20,7 @@ public class SeleniumKatalon2 {
         //WebElement btnElement_xpath= driver.findElement(By.xpath("btn-make-appointment"));
         //btnElement_xpath.click();
 
-        //By using xpath functions i.e contains
+        //By using xpath functions i.e contains ,if we don't have any random value and only make appointment then also we can find out with the help of contains.
         //WebElement btnElement_xpath = driver.findElement(By.xpath("//a[contains(text(),'Make Appointment')]"));
         //        btnElement_xpath.click();
 
