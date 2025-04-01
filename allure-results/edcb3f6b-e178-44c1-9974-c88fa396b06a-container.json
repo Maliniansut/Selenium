@@ -1,0 +1,1 @@
+{"uuid":"edcb3f6b-e178-44c1-9974-c88fa396b06a","name":"SeleniumAutomation","children":["f9448d9a-c44c-4790-9717-303e3ee6c239"],"befores":[{"name":"openBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1742983148312,"stop":1742983149010}],"afters":[],"start":1742983148299,"stop":1742983165132}
